@@ -1,0 +1,65 @@
+* {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+	max-width: 1240px;
+}
+
+*.left {
+	text-align: left;
+}
+
+*.center {
+	text-align: center;
+}
+
+*.right {
+	text-align: right;
+}
+
+.bTypeC {
+	width: 70px;
+}
+
+.baseKeyC {
+	width: 70px;
+}
+
+.locationC {
+	width: 70px;
+}
+
+.quantC {
+	width: 40px;
+}
+
+.priceC {
+	width: 50px;
+}
+
+.imgC {
+	width: 25px;
+}
+
+.labelC,stockNoC {
+	width: 200px;
+	text-align: left;
+}
+
+#visDiv {
+	position: fixed;
+	margin-top: 45px;
+	margin-left: 350px;
+	z-index: 1000;
+}
+
+.toggle-vis {
+	color: #337ab7;
+	text-decoration: underline;
+	font-size: 80%;
+}
+/*
+#toPage {
+	size: 4;*/
+}

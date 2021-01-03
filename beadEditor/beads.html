@@ -1,0 +1,106 @@
+<!doctype html>
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+		
+		<title>DataTables Editor - Bead Manager</title>
+
+		<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/dt/jqc-1.12.4/moment-2.13.0/selectize-0.12.1/dt-1.10.19/b-1.2.4/ef-selectize-1.5.6/fc-3.2.2/fh-3.1.2/se-1.2.0/datatables.min.css">
+		<link rel="stylesheet" type="text/css" href="css/generator-base.css">
+		<link rel="stylesheet" type="text/css" href="css/editor.dataTables.min.css">
+
+		<link rel="stylesheet" type="text/css" href="css/beads.css">
+		
+		<script type="text/javascript" charset="utf-8" src="js/jquery.min.js"></script>
+
+		<script type="text/javascript" charset="utf-8" src="https://cdn.datatables.net/v/dt/jqc-1.12.4/moment-2.13.0/selectize-0.12.1/dt-1.10.19/b-1.2.4/ef-selectize-1.5.6/fc-3.2.2/fh-3.1.2/se-1.2.0/datatables.min.js"></script>
+		<script src="https://cdn.datatables.net/buttons/1.5.1/js/dataTables.buttons.min.js" type="text/javascript"></script>
+		<script src="https://cdn.datatables.net/buttons/1.5.1/js/buttons.colVis.min.js" type="text/javascript"></script>
+		<script type="text/javascript" charset="utf-8" src="js/dataTables.editor.min.js"></script>
+		<script type="text/javascript" charset="utf-8" src="js/table.beads.js"></script>
+		
+		<script src="" type="text/javascript">
+
+		</script>	
+		
+		<style type="text/css" media="screen">
+		
+		.container {
+			max-width: 1240px !important;			
+		}
+
+		th.hidden, td.hidden {
+			display: none;
+		}
+		
+		.DTE_Label {
+			text-align: right;
+			/*margin-right: 3px;*/
+		}
+		
+		input,textarea {
+			margin-left: 5px;
+		}
+		
+		</style>
+	</head>
+	<body class="dataTables">
+		<div class="container">
+			<h4 id="bHead" class="center">Bead Manager</h4>
+			<table cellpadding="0" cellspacing="0" border="0" class="display compact" id="beads" width="100%">
+				<thead>
+					<tr>
+						<th class="left xFilter">bType</th>
+						<th class="left cFilter">beadNo</th>
+						<th class="left xFilter">key</th>
+						<th class="center">drwr</th>
+						<th class="center">shelf</th>
+						<th class="center">QF.Dr</th>
+						<th class="center">QF</th>
+						<th class="center">QFoff</th>
+						<th class="center">onL</th>
+						<th class="center">buy</th>
+						<th class="center">Etsy</th>
+						<th class="center">Gall</th>
+						<th class="center">priv</th>
+						<th class="center">sale</th>
+						<th class="center">dscrd</th>
+						<th class="center">excs</th>
+						<th class="center">loc</th>
+						<th class="right costC ">cost</th>
+						<th class="right">price</th>
+						<th class="left labelC">label</th>
+						<th class="left stockNoC ">vStockNo</th>
+						<th class="center">©</th>
+						<th class="center">√</th>
+						<th class="center">img</th>
+					</tr>
+				</thead>
+			</table>
+
+		</div>
+		<TABLE width="460" border="0" cellspacing="1" cellpadding="2">
+			<TR>
+				<TD align="center"><A href="https://www.miyuki-beads.co.jp/english/seed/08_01.html" target="_blank"><!--<IMG src="../images/conversion1.gif" alt="Deloca to Round" width="212" height="163" border="0"><BR>-->
+				Delica to Round conversion </A></TD>
+				<TD align="center"><A href="https://www.miyuki-beads.co.jp/english/seed/08_02.html" target="_blank"><!--<IMG src="../images/conversion2.gif" alt="Round to Delica" width="212" height="163" border="0"><BR>-->
+										Round to Delica conversion </A></TD>
+			</TR>
+		</TABLE>
+		<p class="right">		
+			<a href="../listBeadTypes.php" target="_blank">Show Bead Type List</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+		<p class="right"><a href="../SeeInventoryPOSbyColor.php?color=PRL" target="_blank">See POS Inventory</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+			<p class="right"><a href="../seeInventoryColor.php?color=GD." target="_blank">See Inventory by Colors</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+			<p class="right"><a href="../seeInventoryCategory.php?color" target="_blank">See Patterns by Bead Type</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+			<p class="right"><a href="../SeeOnlineBeadTubesDetails.php" target="_blank">See Beads for Online Sales</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>	
+			<p class="right"><a href="../SeeOnlineBeadTubesStore3.php" target="_blank">See Beads for Online Sales Store3</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<p class="right"><a href="../showDRLocations.php" target="_blank">Show Drawer Locations</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<p class="right"><a href="../showBoxLocations.php" target="_blank">Show Box Locations</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		</p>
+	
+<!--			<div id="colorChart" class="right"></div>-->
+			 <p class="right"><a href="../seeInventoryFolderColorChart.php?btype=zor" target="_blank">See Inventory Color Chart</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p> 
+
+		</p>
+	</body>
+</html>

@@ -1,0 +1,20 @@
+if ($beadType=="8" { $category = "293"};
+if ($beadType=="11" { $category = "300"};
+if ($beadType=="15" { $category = "301"};
+if ($beadType=="DB" { $category = "292"};
+
+if ( strpos($color,"BK.")!== FALSE) { $category .= ",302"};
+if ( strpos($color,"WE.")!== FALSE) { $category .= ",298"};
+if ( strpos($color,"GY.")!== FALSE) { $category .= ",309"}; 
+if ( strpos($color,"RD.")!== FALSE) { $category .= ",295"}; 
+if ( strpos($color,"BE.")!== FALSE) { $category .= ",304"};  
+if ( strpos($color,"GN.")!== FALSE) { $category .= ",305"}; 
+if ( strpos($color,"YW.")!== FALSE) { $category .= ",307"}; 
+if ( strpos($color,"PK.")!== FALSE) { $category .= ",303"}; 
+if ( strpos($color,"BN.")!== FALSE) { $category .= ",308"}; 
+if ( strpos($color,"OE.")!== FALSE) { $category .= ",310"};  
+if ( strpos($color,"CL.")!== FALSE) { $category .= ",311"}; 
+if ( strpos($color,"CM.")!== FALSE) { $category .= ",312"}; 
+if ( strpos($color,"SR.")!== FALSE) { $category .= ",313"}; 
+if ( strpos($color,"GD.")!== FALSE) { $category .= ",314"};  
+if ( strpos($color,"MC.")!== FALSE) { $category .= ",315"}; 
